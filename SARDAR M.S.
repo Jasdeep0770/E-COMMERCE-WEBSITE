@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="style57.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a>Sardar M.S.</a></div>
+      <form
+        class="search-form"
+        onsubmit="event.preventDefault(); searchProduct();"
+      >
+        <input type="text" placeholder="Search products..." id="search-input" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <nav>
+        <ul>
+          <li><a href="index1.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="products-content">
+      <h1 style="text-align: center; padding: 10px">Our Products</h1>
+      <p style="text-align: center; padding: 10px">
+        Explore our wide range of products, from Cooktop to Hand-Blender and
+        everything in between.
+      </p>
+
+      <div class="product-grid">
+        <div class="product-category">
+          <h2>Glass Cooktop</h2>
+            <img src="grand1_2.jpg" alt="SS_Hawkins" width="170px" />
+          </a>
+        </div>
+        <div class="product-category">
+          <h2>Pressure Cooker</h2>
+            <img src="contura_HA.jpg" alt="SS_Hawkins" width="170px" />
+          </a>
+        </div>
+        <div class="product-category">
+          <h2>Mixer & Grinder</h2>
+            <img src="Supermix-New.jpg" alt="Mixer & Grinder" width="150px" />
+          </a>
+        </div>
+
+        <div class="product-category">
+          <h2>Electric Kettles</h2>
+          <a href="printers.html">
+            <img src="2-liters-electric-kettle.jpg" alt="Electric Kettles" width="135px" />
+          </a>
+        </div>
+        <div class="product-category">
+          <h2>Hand Blenders</h2>
+          <a href="handblender.hmtl">
+            <img src="hand-blender.jpg" alt="Hand-Blenders" width="160px" />
+          </a>
+        </div>
+        <div class="product-category">
+          <h2>Spare Parts</h2>
+          <a href="SpareParts.html">
+            <img src="hawkins.png" alt="Accessories" width="150px" height="200px" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-grid">
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: SardarMS_hsp@gmail.com</p>
+        <p>Phone: +91 75898-71088</p>
+      </div>
+
+      <div class="footer-section">
+        <p>&copy; Since 1988  All Rights Reserved.</p>
+        
+      </div>
+
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+          <img src="download.png" alt="Facebook" id="logoa" />
+        </a>
+        <a href="#">
+          <img src="download (1).png" alt="Twitter" id="logoa" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
